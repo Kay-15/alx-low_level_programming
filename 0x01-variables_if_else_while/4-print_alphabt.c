@@ -9,8 +9,8 @@ char la;
 for (la = 'a'; la <= 'z'; la++)
 {
 if (la != 'e' && la != 'q')
-purtchar(la);
+putchar(la);
 }
-putchar('\n')
-return (0)
+putchar('\n');
+return (0);
 }
